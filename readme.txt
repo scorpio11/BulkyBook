@@ -1,1 +1,1 @@
--create category controller
+-parital views (notification)
