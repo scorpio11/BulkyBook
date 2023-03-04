@@ -33,6 +33,10 @@ namespace BulkyBook.DataAccess.Repository
                 objFromDb.CategoryId = obj.CategoryId;
                 objFromDb.Author = obj.Author;
                 objFromDb.CoverTypeId = obj.CoverTypeId;
+                if(obj.ImageUrl!= null)
+                {
+                    objFromDb.ImageUrl = obj.ImageUrl;
+                }
             }
         }
     }
